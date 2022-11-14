@@ -5,5 +5,5 @@ Herramientas que se usaron:
 * HTML
 * CSS para los estilos generales.
 * El framework Bootstrap para los distintos componentes del portafolio.
-Para acceder al curso ingresa a este [link]("https://www.youtube.com/watch?v=QCw0L6FupQ0")
+Para acceder al curso ingresa a este [link](https://www.youtube.com/watch?v=QCw0L6FupQ0)
 
