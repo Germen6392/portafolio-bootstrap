@@ -96,7 +96,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container">
-              <img src="https://techdevised.files.wordpress.com/2021/01/javascript.png?w=1200" class="habilidad-imagen img-thumbnail" src="imagenes/cliente1.svg" alt="Foto de Javascript">
+              <img src="https://techdevised.files.wordpress.com/2021/01/javascript.png?w=1200" class="habilidad-imagen rounded-circle w-2" src="imagenes/cliente1.svg" alt="Foto de Javascript">
               <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
               <div class="habilidad-info">
                 <p class="tecnologia">Javascript</p>
@@ -106,7 +106,7 @@
           </div>
           <div class="carousel-item">
             <div class="container">
-              <img src="https://logodix.com/logo/541959.jpg" class="habilidad-imagen rounded-circle" src="imagenes/cliente2.svg" alt="Foto de Base de Datos">
+              <img class="habilidad-imagen rounded-circle" src="imagenes/cliente2.svg" alt="Foto de Base de Datos">
               <p class="habilidad-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
               <div class="habilidad-info">
                 <p class="tecnologia">Base de Datos SQL</p>
@@ -116,7 +116,7 @@
           </div>
           <div class="carousel-item">
             <div class="container">
-              <img src="https://www.jsweet.org/wp-content/uploads/2016/04/react-logo-300x289.png" class="habilidad-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto de Frameworks">
+              <img class="habilidad-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto de Frameworks">
               <p class="habilidad-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
               <div class="habilidad-info">
                 <p class="tecnologia">Frameworks para desarrollo del front-end</p>
@@ -135,31 +135,9 @@
         </button>
       </div>
     </section>
-
 <!--contact -->
-
-<section id="contacto" class="contacto seccion-oscura">
-      <div class="container">
-        <div class="container text-center rectangulo d-flex justify-content-evenly">
-          <div class="row">
-            <div class="col-12 col-md-4 seccion-titulo">
-              ¡Hablemos!
-            </div>
-            <div class="col-12 col-md-4 descripcion">
-              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
-            </div>
-            <div class="col-12 col-md-4">
-              <a href="mailto:janedoe@micorreo.com">
-                <button type="button">  
-                  Contacto
-                  <i class="bi bi-envelope-check-fill"></i>
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<section id="contacto">
+Contacto
 </section>
 <footer>
     <ul>

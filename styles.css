@@ -2,6 +2,7 @@
 .navbar {
 	padding: 2rem;
 	background-color: #f5f6f7;
+    height: 100px;
 	}
 .navbar-collapse {
 	align-items: center;
@@ -37,7 +38,7 @@ h1 {
 /* hero */
 .hero {
 	background-color: #f5f6f7;
-	min-height: 450px;
+	min-height: 250px;
 	text-align: center;
 }
 
@@ -68,10 +69,140 @@ experiencia {
 	padding: 40px;
 }
 .experiencia .row div {
-	height: 250px;
-	background-color: brown;
-	border: 3px solid orange;
+	height: auto;
+	background-color: #1c3a69;
+	border: 3px solid blue;
 }
+img {
+width:300px;
+height:auto;
+border: 2px solid black;
+border-radius:10px;
+}
+
+.experiencia-titulo {
+margin:1.2rem;
+color: #7a55a1;
+}
+.experiencia-texto {
+padding:1.2rem;
+color:#7a55a1;
+}
+.articulo-titulo {
+margin:1.2rem;
+color: #e7e3d8;
+}
+.articulo-texto {
+padding:1.2rem;
+color:#e7e3d8;
+}
+
+/* Habilidades */
+
+.habilidades {
+  padding: 40px 40px 80px 40px;
+}
+
+.habilidades .carousel {
+  max-width: 800px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.habilidad-imagen {
+  height: 150px;
+  width: 150px;
+  margin: 10px 10px 20px 10px;
+}
+
+.habilidad-texto {
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.habilidad-info {
+  font-weight: bold;
+  text-align: center;
+}
+
+.habilidad-info p {
+  margin-bottom: 0;
+}
+
+.habilidad-footer .tecnologia {
+  font-size: 1.2rem;
+}
+
+.habilidad-info .detalle {
+  font-size: 0.9rem;
+  color: #656060;
+}
+
+
+/*contact */
+.contacto .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contacto .rectangulo {
+  margin-top: -5rem;
+  background-color: rgb(13, 110, 253);
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contacto .descripcion {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contacto button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contacto button i {
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+  color: black;
+}
+
 /* responsive */
 @media screen and (max-width: 767px) {
 	.navbar-brand {
